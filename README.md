@@ -46,9 +46,9 @@ Se han usado 3 datasets para este proyecto:
 
 El código desarrollado para llegar al modelo se ha dividido en 3 notebooks.
 
-### **```NBA 01 data consolidation & web scrapping.ipynb```**
+### **```NBA 01 data consolidation & web scraping.ipynb```**
 
-En este notebook se han consolidado los 3 datasets en uno solo, que se ha exportado como ```data_nba.csv```. ste archivo contiene todas las observaciones del dataset *NBA Regular Season Data 1950-2021* filtradas desde 2001, y a cada observación se le ha añadido la información correspondiente de cada jugador proveniente de los otros 2 datasets *NBA Salaries* y *Dataset propio*:el salario que cobraba en el año de la observación, las posiciones en las que actúa, si es zurdo o diestro, el peso o la altura.
+En este notebook se han consolidado los 3 datasets en uno solo, que se ha exportado como ```data_nba.csv```. Este archivo contiene todas las observaciones del dataset *NBA Regular Season Data 1950-2021* filtradas desde 2001, y a cada observación se le ha añadido la información correspondiente de cada jugador proveniente de los otros 2 datasets *NBA Salaries* y *Dataset propio*:el salario que cobraba en el año de la observación, las posiciones en las que actúa, si es zurdo o diestro, el peso o la altura.
 
 En primer lugar, se han unido los archivos ```salaries.csv``` y ```players.csv``` del dataset *NBA Salaries* y se han añadido a las observaciones del dataset *NBA Regular Season Data 1950-2021*. Para ejecutar esta tarea de forma automática se ha utilizado la librería **fuzzywuzzy**, ya que había alguna diferencia en los nombres de los jugadores entre ambos datasets.
 
